@@ -1,0 +1,8 @@
+img{
+    /* height: 10; */
+    width: 5%;
+}
+
+.navbar-container{
+    display: flex;
+}
