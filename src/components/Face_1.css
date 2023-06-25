@@ -5,17 +5,25 @@
 
 .Symbi_Img{
     position: relative;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
+/* .img-fluid{
+    background-image: linear-gradient(to right,#1e1e1e , transparent);
+} */
+.gradfill{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(to right,#1e1e1e , transparent);
+}
 .Opening_txt{
     position: absolute;
     /* width: 100%; */
     /* height: 100%; */
     text-align: left;
     font-size: 3em;
-    bottom: 12em;
-    background-image: linear-gradient(to right,#1e1e1e , transparent);
+    /* bottom: 12em; */
     left: 1em;
     color: #EEEEEE;
     /* apply linear gradient using toright from left to right and choose colour as needed */
