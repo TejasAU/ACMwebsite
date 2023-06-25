@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .img-fluid{ */
+    /* width: 100%; */
+    /* height: 0; */
+/* } */
+
+.Symbi_Img{
+    /* position: relative; */
+    text-align: center;
+}
+
+.Opening_txt{
+    position: absolute;
+    font-size: 3em;
+    bottom: 12em;
+    left: 1em;
+    color: #EEEEEE;
+    /* background-image: linear-gradient(toright, (54, 54, 54), white, transparent); */
+    /* apply linear gradient using toright from left to right and choose colour as needed */
+}

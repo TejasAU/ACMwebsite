@@ -1,18 +1,23 @@
 *{
     margin: 0;
+    padding: 0;
 }
 img{
     /* height: 10; */
     width: 5%;
-    background-color: rgba(255, 255, 255, 0.927); /* logo background color */ 
+    /* margin-left: 1em; */
+    /* logo background color */ 
+    /* background-color: rgba(255, 255, 255, 0.927);  */
 }
 
 /* displaying items in flex style and seperating the logo and navagation-lists */
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: #EEEEEE;
+    padding-left: 16px;
+    /* background-color: black; */
+    /* color: white; */
 }
 
 ul{
@@ -23,7 +28,7 @@ ul{
 }
 
 ul li{
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .navigate{
