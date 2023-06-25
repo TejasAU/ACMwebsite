@@ -2,22 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
-/* .img-fluid{ */
-    /* width: 100%; */
-    /* height: 0; */
-/* } */
 
 .Symbi_Img{
-    /* position: relative; */
+    position: relative;
     text-align: center;
 }
 
 .Opening_txt{
     position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    text-align: left;
     font-size: 3em;
     bottom: 12em;
+    background-image: linear-gradient(to right,#1e1e1e , transparent);
     left: 1em;
     color: #EEEEEE;
-    /* background-image: linear-gradient(toright, (54, 54, 54), white, transparent); */
     /* apply linear gradient using toright from left to right and choose colour as needed */
 }
