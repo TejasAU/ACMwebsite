@@ -12,7 +12,7 @@ function App() {
         <Route path='/' exact />
       </Routes>
     </Router> */}
-    <h1>temp</h1>
+    {/* <h1>temp</h1> */}
       
     </>
   );

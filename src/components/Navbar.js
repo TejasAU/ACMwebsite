@@ -12,7 +12,14 @@ function Navbar() {
               {/* <Link to="/" className="navbar-logo">
               <i className='logoACM'>https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png</i>
               </Link> */}
-              <h1>test</h1>
+              <div className = 'navigate'>
+                <ul class = "navList">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              {/* <h1>test</h1> */}
             </div>
         </nav>
     </>

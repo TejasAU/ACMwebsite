@@ -1,0 +1,4 @@
+/* check once again which display way to use */ 
+body{
+    display: grid;
+}

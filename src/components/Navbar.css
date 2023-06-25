@@ -1,8 +1,33 @@
+*{
+    margin: 0;
+}
 img{
     /* height: 10; */
     width: 5%;
+    background-color: rgba(255, 255, 255, 0.927); /* logo background color */ 
 }
 
+/* displaying items in flex style and seperating the logo and navagation-lists */
 .navbar-container{
     display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* align items in center in straight-line (aka cross-axis "|" ) */
+}
+
+ul li{
+    padding-left: 10px;
+}
+
+.navigate{
+    padding-right: 2em;
+    display: flex;
+    justify-content: center;
 }
