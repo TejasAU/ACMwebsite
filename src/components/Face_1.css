@@ -10,7 +10,7 @@
 
 .Opening_txt{
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     /* height: 100%; */
     text-align: left;
     font-size: 3em;
