@@ -28,3 +28,16 @@
     color: #EEEEEE;
     /* apply linear gradient using toright from left to right and choose colour as needed */
 }
+
+.crousel_a{
+    margin: 3em;
+    /* fit-content :- height adjust as content changes */
+    height: fit-content;
+    background-color: #B0DEFF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
