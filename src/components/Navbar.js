@@ -26,6 +26,7 @@ function Navbar() {
                 <ul class = "navList">
                   <li>Home</li>
                   <li>About</li>
+                  <li>Gallery</li>
                   <li>Team</li>
                   <li>Events</li>
                   <li>Contact Us</li>
