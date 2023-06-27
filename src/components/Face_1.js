@@ -54,7 +54,10 @@ function Face_1() {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
         </div>
       </div>
-
+      
+      <div class="Gal">
+        <h2>Gallery</h2>
+      </div>
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
