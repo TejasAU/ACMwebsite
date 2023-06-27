@@ -6,18 +6,18 @@ import { Link } from 'react-router-dom'
 
 
 function Navbar() {
-  const [fix , setFix]=useState(false)
-  function setFixed(){
-    if(window.scrollY>=100){
-      setFix(true)
+  const [color , setColor]=useState(false)
+  function changeColor(){
+    if(window.scrollY <= 800){
+      setColor(true)
     }else{
-      setFix(false)
+      setColor(false)
     }
   }
-  window.addEventListener("scroll",setFixed)
+  window.addEventListener("scroll",changeColor)
   return (
     <>
-        <nav className='navbar'>
+        <nav className={color ? 'navbar fixed-top' : 'navbar-changed fixed-top'}>
               <img src="https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png" className="App-logo" alt="logo" />
               {/* <Link to="/" className="navbar-logo">
               <i className='logoACM'>https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png</i>
