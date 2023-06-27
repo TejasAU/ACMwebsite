@@ -27,6 +27,8 @@
     left: 1em;
     color: #EEEEEE;
     /* apply linear gradient using toright from left to right and choose colour as needed */
+    float: left;
+    width:50%;
 }
 
 .crousel_a{
@@ -40,4 +42,5 @@
 
 .content{
     padding: 20px;
+    /* float: left; */
 }

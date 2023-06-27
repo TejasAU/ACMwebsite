@@ -7,16 +7,17 @@ function Face_1() {
       <div class='Symbi_Img'>
         <img src="https://www.sitpune.edu.in/index/assets/images/HC4A0654.jpg" class="img-fluid" alt="Symbiosis" style={{ width: 100 + '%' }}>
         </img>
-
-        <div class="gradfill">
-
-        </div>
         <div class='Opening_txt'>
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip
         </div>
+
+        <div class="gradfill">
+
+        </div>
+        
       </div>
 
       <div class='crousel_a'>

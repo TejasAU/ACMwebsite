@@ -11,11 +11,14 @@ img{
 }
 
 /* displaying items in flex style and seperating the logo and navagation-lists */
-.navbar-container{
+.navbar{
     display: flex;
     justify-content: space-between;
     background-color: #EEEEEE;
     padding-left: 16px;
+    /* position: sticky; */
+
+    top:0;
     /* background-color: black; */
     /* color: white; */
 }
@@ -36,3 +39,13 @@ ul li{
     display: flex;
     justify-content: center;
 }
+
+.navbar-fixed{
+    background-color:black;
+    transition: .3s ease-in-out;
+}
+.navbar.fixed button {
+    background-color: black;
+
+}
+

@@ -2,3 +2,7 @@
 /* body{
     display: grid;
 } */
+Navbar{
+    position:sticky;
+    top:0;
+}
