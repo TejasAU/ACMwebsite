@@ -8,6 +8,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 function Face_1() {
+  let message = "lorem ipsum"
   return (
     <>
       <div class='Symbi_Img'>
@@ -97,7 +98,90 @@ function Face_1() {
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
     </MDBCarousel>
+    <section className='section-white'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12 text-center'>
+            <h2 className='section-title'>The Team Behind ACM</h2>
+            <p className='section-subtitle'>
+              {message}
+            </p>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+            <div className='team-item'>
+              <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
+              <h3>Sudeep Sahu</h3>
+              <div className='team-info'>
+                <p>Head of ACM</p>
+                <p>Sudeep is awesome and bla bla bla bla</p>
+                <ul className='team-icon'>
+                  <li>
+                    <a href="#" className="twitter">
+                    {/* Replace with linkedin later */}
+                      <i className="fa fa-twitter"> </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="facebook">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+            <div className='team-item'>
+              <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
+              <h3>Chahak Sengar</h3>
+              <div className='team-info'>
+                <p>Head of ACM</p>
+                <p>Sudeep is awesome and bla bla bla bla</p>
+                <ul className='team-icon'>
+                  <li>
+                    <a href="#" className="twitter">
+                    {/* Replace with linkedin later */}
+                      <i className="fa fa-twitter"> </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="facebook">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+            <div className='team-item'>
+              <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
+              <h3>Yash Jugade</h3>
+              <div className='team-info'>
+                <p>Head of ACM</p>
+                <p>Sudeep is awesome and bla bla bla bla</p>
+                <ul className='team-icon'>
+                  <li>
+                    <a href="#" className="twitter">
+                    {/* Replace with linkedin later */}
+                      <i className="fa fa-twitter"> </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="facebook">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     </>
+    
   )
 }
 
