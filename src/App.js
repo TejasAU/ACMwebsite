@@ -10,7 +10,7 @@ function App() {
     
       <Navbar />
      
-      <Face_1 />
+      {/* <Face_1 /> */}
     </>
   );
 }

@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import style from "./Face_1.css"
 import {useRef} from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import * as Icon from 'react-bootstrap-icons';
 
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-} from 'mdb-react-ui-kit';
+// import {
+//   MDBCarousel,
+//   MDBCarouselItem,
+// } from 'mdb-react-ui-kit';
 
 function Face_1() {
-  let message = "lorem ipsum"
+  // let message = "lorem ipsum"
   return (
     <>
       <div class='Symbi_Img'>
@@ -24,14 +24,9 @@ function Face_1() {
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip"
         </div>
-
-        <div class="gradfill">
-
-        </div>
-        
       </div>
 
-      <div class='crousel_a'>
+      {/* <div class='crousel_a'>
         <div class='head'>
           <h2>ABOUT US</h2>
         </div>
@@ -52,10 +47,10 @@ function Face_1() {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
         </div>
-      </div>
+      </div> */}
 
 
-      <div class='crousel_a'>
+      {/* <div class='crousel_a'>
         <div class='head'>
           <h2>OUR IDEOLOGIES</h2>
         </div>
@@ -64,9 +59,9 @@ function Face_1() {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
         </div>
-      </div>
+      </div> */}
       
-      <div class="Gal">
+      {/* <div class="Gal">
         <h2>GALLERY</h2>
       </div>
       <MDBCarousel showIndicators showControls fade>
@@ -99,8 +94,8 @@ function Face_1() {
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
-    </MDBCarousel>
-    <section className='section-white'>
+    </MDBCarousel> */}
+    {/* <section className='section-white'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 text-center'>
@@ -118,9 +113,9 @@ function Face_1() {
                 <p>Sudeep is awesome and bla bla bla bla</p>
                 <ul className='team-icon'>
                   <li>
-                    <a href="#" className="twitter">
+                    <a href="#" className="twitter"> */}
                     {/* Replace with linkedin later */}
-                      <i className="fa fa-twitter"> </i>
+                      {/* <i className="fa fa-twitter"> </i>
                     </a>
                   </li>
                   <li>
@@ -141,9 +136,9 @@ function Face_1() {
                 <p>Sudeep is awesome and bla bla bla bla</p>
                 <ul className='team-icon'>
                   <li>
-                    <a href="#" className="twitter">
+                    <a href="#" className="twitter"> */}
                     {/* Replace with linkedin later */}
-                      <i class="bi bi-linkedin"> </i>
+                      {/* <i class="bi bi-linkedin"> </i>
                     </a>
                   </li>
                   <li>
@@ -164,9 +159,9 @@ function Face_1() {
                 <p>Sudeep is awesome and bla bla bla bla</p>
                 <ul className='team-icon'>
                   <li>
-                    <a href="#" className="twitter">
+                    <a href="#" className="twitter"> */}
                     {/* Replace with linkedin later */}
-                      <i className="fa fa-twitter"> </i>
+                      {/* <i className="fa fa-twitter"> </i>
                     </a>
                   </li>
                   <li>
@@ -180,9 +175,8 @@ function Face_1() {
           </div>
         </div>
       </div>
-    </section>
-    <h1>TEST</h1>
-    
+    </section> */}
+    {/* <h1>TEST</h1> */}
     </>
     
   )
