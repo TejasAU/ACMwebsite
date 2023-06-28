@@ -30,12 +30,6 @@
     }
 }
 
-
-.gradfill{
-    position: absolute;
-    width: 100%;
-    background-image: linear-gradient(to right,#1e1e1e , transparent);
-}
 .Opening_txt{
     position: absolute;
     /* width: 100%; */
