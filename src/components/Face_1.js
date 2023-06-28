@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import style from "./Face_1.css"
 import {useRef} from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import * as Icon from 'react-bootstrap-icons';
 
 import {
   MDBCarousel,
@@ -132,7 +134,7 @@ function Face_1() {
           </div>
           <div className='col-sm-6 col-md-4'>
             <div className='team-item'>
-              <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
+              <img src="https://imagizer.imageshack.com/img924/6608/cCkVtp.jpg" className='team-img' alt='pic' />
               <h3>Chahak Sengar</h3>
               <div className='team-info'>
                 <p>Head of ACM</p>
@@ -141,7 +143,7 @@ function Face_1() {
                   <li>
                     <a href="#" className="twitter">
                     {/* Replace with linkedin later */}
-                      <i className="fa fa-twitter"> </i>
+                      <i class="bi bi-linkedin"> </i>
                     </a>
                   </li>
                   <li>
@@ -155,7 +157,7 @@ function Face_1() {
           </div>
           <div className='col-sm-6 col-md-4'>
             <div className='team-item'>
-              <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
+              <img src="https://imagizer.imageshack.com/img923/7446/HwfBkn.jpg" className='team-img' alt='pic' />
               <h3>Yash Jugade</h3>
               <div className='team-info'>
                 <p>Head of ACM</p>
@@ -179,6 +181,7 @@ function Face_1() {
         </div>
       </div>
     </section>
+    <h1>TEST</h1>
     
     </>
     
