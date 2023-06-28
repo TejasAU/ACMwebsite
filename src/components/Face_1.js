@@ -24,7 +24,7 @@ function Face_1() {
 
       <div class='crousel_a'>
         <div class='head'>
-          <h2>ABOUT</h2>
+          <h2>ABOUT US</h2>
         </div>
         <div class='content'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the

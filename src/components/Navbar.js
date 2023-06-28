@@ -25,9 +25,9 @@ function Navbar() {
               <div className = 'navigate'>
                 <ul class = "navList">
                   <li>Home</li>
-                  <li>About</li>
+                  <li>About Us</li>
                   <li>Gallery</li>
-                  <li>Team</li>
+                  <li>Our Team</li>
                   <li>Events</li>
                   <li>Contact Us</li>
                 </ul>
