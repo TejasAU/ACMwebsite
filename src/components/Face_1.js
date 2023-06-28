@@ -5,8 +5,10 @@ function Face_1() {
   return (
     <>
       <div class='Symbi_Img'>
+        <div className='backImg'>
         <img src="https://www.sitpune.edu.in/index/assets/images/HC4A0654.jpg" class="img-fluid" alt="Symbiosis" style={{ width: 100 + '%' }}>
         </img>
+        </div>
         <div class='Opening_txt'>
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip

@@ -3,15 +3,42 @@
     padding: 0px;
 }
 
+
 .Symbi_Img{
     position: relative;
     display: flex;
     align-items: center;
+   
 }
 
-/* .img-fluid{
+.backImg{
+    position: relative;
+
+    &::after{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right,black,transparent);
+        opacity: 0.9;
+    }
+
+    .image-fluid{
+        filter: grayscale(1);
+    }
+}
+
+.img-fluid{
+
+}
+
+.img-fluid::before{
     background-image: linear-gradient(to right,#1e1e1e , transparent);
-} */
+    content: " ";
+    opacity: 0.6;
+}
 .gradfill{
     position: absolute;
     width: 100%;
