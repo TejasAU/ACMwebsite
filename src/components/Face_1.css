@@ -10,7 +10,7 @@
     align-items: center;
    
 }
-
+/* to apply linear gradient */
 .backImg{
     position: relative;
 
@@ -30,15 +30,7 @@
     }
 }
 
-.img-fluid{
 
-}
-
-.img-fluid::before{
-    background-image: linear-gradient(to right,#1e1e1e , transparent);
-    content: " ";
-    opacity: 0.6;
-}
 .gradfill{
     position: absolute;
     width: 100%;
