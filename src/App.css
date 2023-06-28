@@ -1,8 +1,0 @@
-/* check once again which display way to use */ 
-/* body{
-    display: grid;
-} */
-Navbar{
-    position:sticky;
-    top:0;
-}

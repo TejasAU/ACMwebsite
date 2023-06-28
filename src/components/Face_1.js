@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import style from "./Face_1.css"
+import {useRef} from 'react';
 
 import {
   MDBCarousel,
@@ -15,10 +16,10 @@ function Face_1() {
         </img>
         </div>
         <div class='Opening_txt'>
+          "lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip
           lorem ipsum dolor sit amet, consectetur adip
-          lorem ipsum dolor sit amet, consectetur adip
-          lorem ipsum dolor sit amet, consectetur adip
+          lorem ipsum dolor sit amet, consectetur adip"
         </div>
 
         <div class="gradfill">

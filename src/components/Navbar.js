@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+// import {useRef} from 'react';
 import style from "./Navbar.css"
 // import logo from 'src/logo(2).png'
 // import { useState } from 'react'
@@ -6,6 +7,8 @@ import { Link } from 'react-router-dom'
 
 
 function Navbar() {
+
+
   const [color , setColor]=useState(false)
   function changeColor(){
     if(window.scrollY <= 800){
