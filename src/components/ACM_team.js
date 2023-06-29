@@ -1,4 +1,4 @@
-
+import { TfiLinkedin } from "react-icons/tfi";
 function Our_Team() {
     let message = "lorem ipsum"
     return (
@@ -17,17 +17,18 @@ function Our_Team() {
                                 <img src="https://imagizer.imageshack.com/img922/678/CW1JNG.jpg" className='team-img' alt='pic' />
                                 <h3>Sudeep Sahu</h3>
                                 <div className='team-info'>
-                                    <p>Head of ACM</p>
+                                    <p>Chairperson</p>
                                     <p>Sudeep is awesome and bla bla bla bla</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="#" className="twitter">
+                                            <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
                                                 {/* Replace with linkedin later */}
-                                                <i className="fa fa-twitter"> </i>
+                                                {/* <i className="fa fa-twitter"> </i> */}
+                                                <TfiLinkedin />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" className="facebook">
+                                            <a href="#" className="github">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
                                         </li>
@@ -40,7 +41,7 @@ function Our_Team() {
                                 <img src="https://imagizer.imageshack.com/img924/6608/cCkVtp.jpg" className='team-img' alt='pic' />
                                 <h3>Chahak Sengar</h3>
                                 <div className='team-info'>
-                                    <p>Head of ACM</p>
+                                    <p>Vice Chairperson</p>
                                     <p>Sudeep is awesome and bla bla bla bla</p>
                                     <ul className='team-icon'>
                                         <li>
@@ -63,7 +64,7 @@ function Our_Team() {
                                 <img src="https://imagizer.imageshack.com/img923/7446/HwfBkn.jpg" className='team-img' alt='pic' />
                                 <h3>Yash Jugade</h3>
                                 <div className='team-info'>
-                                    <p>Head of ACM</p>
+                                    <p>Treasurer</p>
                                     <p>Sudeep is awesome and bla bla bla bla</p>
                                     <ul className='team-icon'>
                                         <li>

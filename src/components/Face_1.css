@@ -125,7 +125,7 @@
 
 .team-info p{
     color: #acacac;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .team-info::after{
