@@ -4,6 +4,7 @@ function About_us() {
     <>
       <div class='crousel_a'>
         <div class='head'>
+          <h1>{'\n'} </h1>
           <h2>ABOUT US</h2>
         </div>
         <div class='content'>

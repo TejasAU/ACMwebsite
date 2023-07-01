@@ -1,4 +1,5 @@
 import { TfiLinkedin } from "react-icons/tfi";
+import { TfiGithub } from "react-icons/tfi";
 function Our_Team() {
     let message = "lorem ipsum"
     return (
@@ -22,14 +23,12 @@ function Our_Team() {
                                     <ul className='team-icon'>
                                         <li>
                                             <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
-                                                {/* Replace with linkedin later */}
-                                                {/* <i className="fa fa-twitter"> </i> */}
                                                 <TfiLinkedin />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#" className="github">
-                                                <i className="fa fa-facebook"></i>
+                                                <TfiGithub />
                                             </a>
                                         </li>
                                     </ul>
@@ -45,14 +44,13 @@ function Our_Team() {
                                     <p>Sudeep is awesome and bla bla bla bla</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="#" className="twitter">
-                                                {/* Replace with linkedin later */}
-                                                <i class="bi bi-linkedin"> </i>
+                                            <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
+                                                <TfiLinkedin />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" className="facebook">
-                                                <i className="fa fa-facebook"></i>
+                                            <a href="#" className="github">
+                                                <TfiGithub />
                                             </a>
                                         </li>
                                     </ul>
@@ -68,14 +66,13 @@ function Our_Team() {
                                     <p>Sudeep is awesome and bla bla bla bla</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="#" className="twitter">
-                                                {/* Replace with linkedin later */}
-                                                <i className="fa fa-twitter"> </i>
+                                            <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
+                                                <TfiLinkedin />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" className="facebook">
-                                                <i className="fa fa-facebook"></i>
+                                            <a href="#" className="github">
+                                                <TfiGithub />
                                             </a>
                                         </li>
                                     </ul>

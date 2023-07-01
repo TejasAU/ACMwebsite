@@ -141,3 +141,9 @@
     margin-top: -20px;
     
 }
+
+ul.team-icon{
+    margin-top: 25px;
+    /* position: relative; */
+    padding-left: 160px;
+}
