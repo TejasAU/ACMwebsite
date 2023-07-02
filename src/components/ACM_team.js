@@ -19,7 +19,7 @@ function Our_Team() {
                                 <h3>Sudeep Sahu</h3>
                                 <div className='team-info'>
                                     <p>Chairperson</p>
-                                    <p>Sudeep is awesome and bla bla bla bla</p>
+                                    <p>Sudeep BESTEST</p>
                                     <ul className='team-icon'>
                                         <li>
                                             <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
@@ -41,10 +41,10 @@ function Our_Team() {
                                 <h3>Chahak Sengar</h3>
                                 <div className='team-info'>
                                     <p>Vice Chairperson</p>
-                                    <p>Sudeep is awesome and bla bla bla bla</p>
+                                    <p>Chahak Best</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
+                                            <a href="linkedin.com/in/chahak-sengar-667726226" className="linkedin">
                                                 <TfiLinkedin />
                                             </a>
                                         </li>
@@ -63,10 +63,10 @@ function Our_Team() {
                                 <h3>Yash Jugade</h3>
                                 <div className='team-info'>
                                     <p>Treasurer</p>
-                                    <p>Sudeep is awesome and bla bla bla bla</p>
+                                    <p>Yash OP</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/sudeep2102/" className="linkedin">
+                                            <a href="linkedin.com/in/yash-jugade-3a00a322a" className="linkedin">
                                                 <TfiLinkedin />
                                             </a>
                                         </li>
