@@ -44,7 +44,7 @@ function Our_Team() {
                                     <p>Chahak Best</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="linkedin.com/in/chahak-sengar-667726226" className="linkedin">
+                                            <a href="https://www.linkedin.com/in/chahak-sengar-667726226/" className="linkedin">
                                                 <TfiLinkedin />
                                             </a>
                                         </li>
@@ -66,7 +66,7 @@ function Our_Team() {
                                     <p>Yash OP</p>
                                     <ul className='team-icon'>
                                         <li>
-                                            <a href="linkedin.com/in/yash-jugade-3a00a322a" className="linkedin">
+                                            <a href="https://www.linkedin.com/in/yash-jugade-3a00a322a/" className="linkedin">
                                                 <TfiLinkedin />
                                             </a>
                                         </li>
