@@ -1,7 +1,7 @@
 import { TfiLinkedin } from "react-icons/tfi";
 import { TfiGithub } from "react-icons/tfi";
 function Our_Team() {
-    let message = "lorem ipsum"
+    // let message = "lorem ipsum"
     return (
         <>
             <section className='section-white'>
@@ -10,7 +10,8 @@ function Our_Team() {
                         <div className='col-md-12 text-center'>
                             <h2 className='section-title'>The Team Behind ACM</h2>
                             <p className='section-subtitle'>
-                                {message}
+                                {/* {message} */}
+                                Team
                             </p>
                         </div>
                         <div className='col-sm-6 col-md-4'>
