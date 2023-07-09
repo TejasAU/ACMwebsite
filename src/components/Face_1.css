@@ -47,7 +47,7 @@
 .crousel_a{
     margin: 3em;
     /* fit-content :- height adjust as content changes */
-    /* height: fit-content; */
+    height: fit-content;
     background-color:  white;
     border-radius: 20px;
     text-align: center;

@@ -22,7 +22,9 @@ function Navbar() {
   return (
     <>
       <nav className={color ? 'navbar fixed-top' : 'navbar-changed fixed-top'}>
-              <img src="https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png" className="App-logo" alt="logo" />
+              
+              <a href='#' className='App-logo'><img src="https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png" className='img' alt='logo' /></a>
+              
               <div className = 'navigate'>
                 {/* <ul class = "navList">
                   <li>Home</li>
