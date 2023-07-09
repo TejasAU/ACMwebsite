@@ -65,7 +65,7 @@ function Navbar() {
         <h4 id="scrollspyHeading4"> </h4>
         <Our_Team/>
         <h4 id="scrollspyHeading5"> </h4>
-        <p>...</p>
+        {/* <p>...</p> */}
       </div>
     </>
   )
