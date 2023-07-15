@@ -5,6 +5,7 @@ import Face_1 from './Face_1.js';
 import About_us from './About_us.js';
 import Gallery from './Gallery.js';
 import Our_Team from './ACM_team.js';
+import Contact_us from './Contact_us';
 // import logo from 'src/logo(2).png'
 // import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -66,8 +67,9 @@ function Navbar() {
         <Gallery/>
         <h4 id="scrollspyHeading4"> </h4>
         <Our_Team/>
-        <h4 id="scrollspyHeading5"> </h4>
+        <h4 id="scrollspyHeading6"> </h4>
         {/* <p>...</p> */}
+        <Contact_us/>
       </div>
     </>
   )

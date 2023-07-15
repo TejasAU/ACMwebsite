@@ -10,7 +10,7 @@ function App() {
     <>
     
       <Navbar />
-      <Contact_us />
+      
       {/* <Face_1 /> */}
     </>
   );
