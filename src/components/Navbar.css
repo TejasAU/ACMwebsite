@@ -2,6 +2,7 @@
     background:linear-gradient(black,black);
     margin: 0px;
     padding: 0;
+    color: white;
 }
 img{
     /* height: 10; */
@@ -62,20 +63,4 @@ a{
 }
 .img{
     width: 100%;
-}
-
-.content{
-    color: white;
-}
-
-.head{
-    color: white;
-}
-
-.Gal{
-    color: white;
-}
-
-.photos{
-    color: white;
 }

@@ -5,7 +5,7 @@ function About_us() {
       <div class='crousel_a'>
         <div class='head'>
           <h1>{'\n'} </h1>
-          <h2>ABOUT US</h2>
+          <h2 >ABOUT US</h2>
         </div>
         <div class='content'>
         The Association for Computing Machinery (ACM) is the world's largest computing society that brings together computing educators, researchers, and professionals to address the field's challenges, promote high standards, and recognize technical excellence. ACM supports the professional growth of its members through lifelong learning, career development, and networking opportunities. With over 100,000 members globally, ACM has councils in Europe, India, and China that foster networking opportunities and raise awareness of computing's important technical, educational, and social issues worldwide.
