@@ -8,6 +8,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    background: transparent;
    
 }
 /* to apply linear gradient */
@@ -23,6 +24,7 @@
         height: 100%;
         background-image: linear-gradient(to right,black,transparent);
         opacity: 0.9;
+        background: transparent;
     }
 
     .image-fluid{
@@ -52,32 +54,39 @@
     background-color:  white;
     border-radius: 20px;
     text-align: center;
+    background: transparent;
 }
 
 .content{
     padding: 20px;
+    background: transparent;
     /* float: left; */
 }
 
 .carousel{
     width: 50%;
     margin: auto;
+    background: transparent;
 }
 .Gal{
     text-align: center;
+    background: transparent;
 }
 
 .w-100{
     border-radius: 20px;
+    background: transparent;
 }
 
 .team-img{
     width: 65%;
+    background: transparent;
 }
 
 .section-white{
     background: #fff;
     padding: 70px 0;
+    background: transparent;
 
 }
 
@@ -92,11 +101,13 @@
     -ms-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    background: transparent;
 }
 
 .team-item:hover{
     background: #3956de;
     color: white;
+    background: transparent;
 }
 
 .team-item h3{
@@ -108,25 +119,30 @@
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    background: transparent;
 }
 
 .section-subtitle{
     white-space: pre-line;
+    background: transparent;
 }
 
 .team-item:hover h3{
     color: #ddd;
+    background: transparent;
 
 }
 
 .team-info{
     display: block;
     margin-bottom: 0;
+    background: transparent;
 }
 
 .team-info p{
     color: #acacac;
     /* font-style: italic; */
+    background: transparent;
 }
 
 .team-info::after{
@@ -140,6 +156,7 @@
     content: " ";
     width: 50px;
     margin-top: -20px;
+    background: transparent;
     
 }
 
@@ -147,4 +164,5 @@ ul.team-icon{
     margin-top: 25px;
     /* position: relative; */
     padding-left: 160px;
+    background: transparent;
 }
